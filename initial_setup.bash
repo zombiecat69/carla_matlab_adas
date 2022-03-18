@@ -30,8 +30,6 @@ fi
 
 
 
-
-
 CARLA_v1=$(echo $CARLA | cut -d '_' -f 2 | cut -d '.' -f 1)
 CARLA_v2=$(echo $CARLA | cut -d '_' -f 2 | cut -d '.' -f 2)
 CARLA_v3=$(echo $CARLA | cut -d '_' -f 2 | cut -d '.' -f 3)
